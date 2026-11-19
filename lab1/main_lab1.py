@@ -12,7 +12,7 @@ from lab1_11 import task11
 from lab1_12 import task12
 
 def task_choice():
-    task = int(input("Введите задание для проверки или любое другое значение для выхода: "))
+    task = int(input("Введите задание для проверки или любое другое число для выхода: "))
     match task:
         case 1:
             task1()
